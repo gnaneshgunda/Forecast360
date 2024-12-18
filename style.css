@@ -70,10 +70,10 @@ nav div a:hover {
         flex-direction: column;
         background-color: #696969;
         position: absolute;
-        top: 80px;
+        top:11vh;
         right: 10px;
         border-radius: 5px;
-        min-width: 150px;
+        min-width:150px;
     }
 
     nav div a {
@@ -102,11 +102,11 @@ nav div a:hover {
 height:40px;
 }
 .search input{
-    width:96%;
+    width:96.5vw;
     border-radius: 7px;
 }
 .search button {
-    width:50px;
+    width:3.5vw;
     background-color:rgba(0,0,0,0.3) ;
     border-radius:7px;
 }
