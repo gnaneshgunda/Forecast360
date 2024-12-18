@@ -220,6 +220,7 @@ main p{
 #about{
 display:flex;
 flex-wrap:wrap;
+width:100vw;
 margin-top:10vh;
 margin-bottom:8vh;
 min-height:50vh;
@@ -271,7 +272,7 @@ footer div{
     align-items: center;
 }
 #kicon img{
-    width:100vw;
+    width:100%;
 }
 #fcntnt{
     display:flex;
