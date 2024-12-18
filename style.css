@@ -148,7 +148,7 @@ main p{
 }
 .details{
     display:flex;
-    min-width:90%;
+    min-width:85%;
     flex-wrap:wrap;
     justify-content: space-around;
     min-height:40vh
@@ -260,7 +260,7 @@ footer div{
 #kicon{
     display:flex;
     flex-direction: column;
-    width:10vw;
+    min-width:10vw;
     align-items: center;
 }
 #kicon img{
@@ -270,7 +270,7 @@ footer div{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    min-width:30vw;
+    min-width:40vw;
     align-items: center;
 
 }
