@@ -17,7 +17,7 @@ nav {
     top:0vh;
     align-items: center;
     height: 11vh;
-    width: 99%;
+    width: 99vw;
     background-color: #696969;
     border-radius:5%;
 
@@ -79,6 +79,7 @@ nav div a:hover {
     nav div a {
         padding:1vh;
         text-align: center;
+        display:block;
     }
 
     #hamburger {
@@ -102,11 +103,11 @@ nav div a:hover {
 height:40px;
 }
 .search input{
-    width:96.5vw;
+    width:96vw;
     border-radius: 7px;
 }
 .search button {
-    width:3.5vw;
+    width:50px;
     background-color:rgba(0,0,0,0.3) ;
     border-radius:7px;
 }
