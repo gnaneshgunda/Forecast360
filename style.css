@@ -149,13 +149,13 @@ main p{
 }
 .details{
     display:flex;
-    width:90vw;
+    width:85vw;
     flex-wrap:wrap;
     justify-content:space-around;
     min-height:40vh
 }
 .det{
-    min-width:26vw;
+    min-width:24vw;
     padding:1vw;
     background-color:rgba(255,255,255,0.3) ;
     text-align: center;
@@ -163,11 +163,11 @@ main p{
     border-radius:3px;
 }
 .icon{
-    width:10vw;
+    width:15vw;
     min-height:40vh;
 }
 .iconimg{
-    width:10vw;
+    width:15vw;
 }
 
 .cityname{
