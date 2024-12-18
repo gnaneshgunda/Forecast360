@@ -264,6 +264,7 @@ footer div{
 #kicon{
     display:flex;
     flex-direction: column;
+    justify-content:center;
     width:10vw;
     align-items: center;
 }
