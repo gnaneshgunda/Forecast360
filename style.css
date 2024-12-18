@@ -1,8 +1,8 @@
 body{
     display:flex;
     flex-direction: column;
-    
-}
+    overflow-x:hidden;
+    }
 #toy1{
     height:11vh;
 }
@@ -151,7 +151,7 @@ main p{
     display:flex;
     width:90vw;
     flex-wrap:wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     min-height:40vh
 }
 .det{
@@ -167,7 +167,7 @@ main p{
     min-height:40vh;
 }
 .iconimg{
-    min-height:30vh;
+    width:10vw;
 }
 
 .cityname{
