@@ -30,7 +30,7 @@ nav h1{
 nav div {
     display: flex;
     justify-content: space-around;
-    width: 45%;
+    width: 45vw;
     margin-left: auto;
 }
 
@@ -128,12 +128,12 @@ main{
     display:flex;
 justify-content:space-around;
 flex-wrap: wrap;
-width:100%;
+width:100vw;
 min-height:140vh;
 }
 .cityname{
     margin-top:5vh;
-    width:100%;
+    width:100vw;
     font-size:1.6rem;
     text-align: center;
 }
@@ -149,13 +149,13 @@ main p{
 }
 .details{
     display:flex;
-    width:90%;
+    width:90vw;
     flex-wrap:wrap;
     justify-content: space-around;
     min-height:40vh
 }
 .det{
-    min-width:30%;
+    min-width:26vw;
     padding:1vw;
     background-color:rgba(255,255,255,0.3) ;
     text-align: center;
@@ -163,7 +163,7 @@ main p{
     border-radius:3px;
 }
 .icon{
-    width:10%;
+    width:10vw;
     min-height:40vh;
 }
 .iconimg{
@@ -176,16 +176,16 @@ main p{
 .hrdetails{
     display:flex;
     flex-wrap:wrap;
-    width:100%;
+    width:100vw;
     min-height:15vh;
 }
 .hrdet{
     display:flex;
     justify-content: center;
     border-style:solid;
-    min-width:7%;
-    padding:0.1vw;
-    margin:0.2%;
+    min-width:6.5vw;
+    padding:0.3vw;
+    margin:0.2vw;
     border-radius:5px;
     border-color:rgba(0,0,0,0.3);
     background-color:rgba(255,255,255,0.3) ;
@@ -195,7 +195,7 @@ main p{
     display:flex;
     flex-wrap:wrap;
    margin-top:5vh;
-    width:100%;
+    width:100vw;
     min-height:40vh;
     justify-content: center;
 }
@@ -203,7 +203,7 @@ main p{
     display:flex;
     flex-direction: column;
     border-style:solid;
-    min-width:8%;
+    min-width:8vw;
     padding:1vw;
     margin:0.3%;
     border-radius:5px;
@@ -230,7 +230,7 @@ align-content: center;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width:75%;
+    width:75vw;
     min-height:50vh;
     margin-left:2vw;
     font-size: 1rem;
@@ -245,7 +245,7 @@ align-content: center;
 }
 #abtimg img{
     border-radius:5%;
-    width:100%;
+    width:100vw;
     
 }
 footer{
@@ -254,7 +254,7 @@ footer{
     justify-content:center;
     background-color: black;
     margin-top:4vh;
-    width:100%;
+    width:100vw;
     min-height:30vh;
     border-radius:10px;
     color:white;
@@ -270,7 +270,7 @@ footer div{
     align-items: center;
 }
 #kicon img{
-    width:100%;
+    width:100vw;
 }
 #fcntnt{
     display:flex;
