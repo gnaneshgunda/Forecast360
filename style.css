@@ -148,7 +148,7 @@ main p{
 }
 .details{
     display:flex;
-    width:90%;
+    min-width:90%;
     flex-wrap:wrap;
     justify-content: space-around;
     min-height:40vh
@@ -200,7 +200,7 @@ main p{
     display:flex;
     flex-direction: column;
     border-style:solid;
-    width:8%;
+    min-width:8%;
     margin:0.3%;
     border-radius:5px;
     border-color:rgba(0,0,0,0.3);
