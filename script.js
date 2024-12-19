@@ -170,7 +170,7 @@ document.getElementById("searchbutton").addEventListener("click", (event)=>{
     let cityInput = document.getElementById("cityinput");
     city=cityInput.value;
     console.log(city);
-    URL=`https://api.weatherapi.com/v1/forecast.json?key=482a85a44e0b4539b0852322241612&q=${city}&days=1&aqi=no&alerts=no`;
+    URL=`https://api.weatherapi.com/v1/forecast.json?key=482a85a44e0b4539b0852322241612&q=${city}&days=7&aqi=no&alerts=no`;
 fetch(URL)
     .then((response) => response.json()) 
     .then((data) => {
