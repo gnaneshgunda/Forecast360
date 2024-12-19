@@ -157,11 +157,10 @@ main p{
 .det{
     min-width:24vw;
     padding:1vw;
-    background-color:#c4e6ff;
-    color:black;
+    background-color:rgba(255,255,255,0.3);
     text-align: center;
     align-content: center;
-    border-radius:50%;
+    border-radius:10px;
 }
 .icon{
     width:15vw;
