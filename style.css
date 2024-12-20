@@ -49,6 +49,7 @@ nav div a:hover {
     border-width: 2px;
     border-color: white;
     border-style: solid;
+    border-radius:10px;
 }
 
 /* Styles for the hamburger menu */
