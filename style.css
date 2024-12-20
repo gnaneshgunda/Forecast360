@@ -148,6 +148,7 @@ main p{
     display:inline-block;
     font-size:1.2rem;
 }
+@media (min-width:768px){
 .details{
     display:flex;
     width:85vw;
@@ -170,7 +171,35 @@ main p{
 .iconimg{
     height:40vh;
 }
+}
+@media (max-width:767px){
+.details{
+    display:flex;
+    width:100vw;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    min-height:40vh
+}
+.det{
+    min-width:24vw;
+    padding:1vw;
+    background-color:rgba(255,255,255,0.3);
+    text-align: center;
+    align-content: center;
+    border-radius:10px;
+}
+    main{
+        flex-direction:column;
+    }
+.icon{
+    width:15vw;
 
+}
+.iconimg{
+    width:15vw;
+}
+
+}
 .cityname{
     width:100%;
 }
